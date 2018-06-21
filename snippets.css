@@ -1,0 +1,11 @@
+/* Snippets for later use. */
+
+/* COL SWAP */
+
+.vc_row wpb_row vc_row-fluid flip-image vc_row-o-full-height vc_row-o-columns-middle vc_row-o-equal-height vc_row-o-content-middle vc_row-flex { 
+    display:flex;
+}
+@media only screen and (max-width: 767px) {
+  .flip-image { flex-direction:column-reverse }
+}
+
